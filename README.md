@@ -2,6 +2,8 @@
 
 This is a playground for me tinkering with PwshSpectreConsole to make a simple TUI.
 
+https://github.com/ShaunLawrie/PwshEc2Tools/assets/13159458/7172da94-a8ac-4329-a15e-3562a6c5b917
+
 ## Pre-Requisites
 
 - PwshSpectreConsole to be installed `Install-Module PwshSpectreConsole -AllowPrerelease`.
