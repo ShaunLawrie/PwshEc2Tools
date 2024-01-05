@@ -38,6 +38,14 @@ function Update-InstancesTable {
                 InstanceType,
                 PlatformDetails,
                 LaunchTime,
+                @{
+                    Name="Region"
+                    Expression={$region}
+                },
+                @{
+                    Name="Profile"
+                    Expression={$awsProfile}
+                },
                 PublicIpAddress | Format-SpectreTable -AllowMarkup -Color Orange1
             $instances += $instanceData.Reservations.Instances | Select-Object `
                 InstanceId,
